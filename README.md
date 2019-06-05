@@ -26,8 +26,8 @@
 ```
 git clone git@github.com:ichimatsu0627/codeigniter_on_docker.git template.com
 ```
-
-or Zip Download
+  
+or Zip Download  
 
 2. Change .env
 
@@ -35,16 +35,16 @@ or Zip Download
 vi environment/development/.env
 ```
 
-`ENVIRONMENT`: development, testing, production...etc
-`MYSQL_ROOT_PASSWORD`: Root password. required alphabet + number + sybol
-`MYSQL_USER`: Used by Codeigniter
-`MYSQL_PASSWORD`: `MYSQL_USER` password
-`MYSQL_HOST`: MySQL host
-`MYSQL_DATABASE`: Database name
-`PMA_USER`: fix root
-`PMA_PASSWORD`: same `MYSQL_ROOT_PASSWORD`
-`PMA_ARBITRARY`: ?
-`PMA_HOST`: same `MYSQL_HOST`
+- `ENVIRONMENT`: development, testing, production...etc
+- `MYSQL_ROOT_PASSWORD`: Root password. required alphabet + number + sybol
+- `MYSQL_USER`: Used by Codeigniter
+- `MYSQL_PASSWORD`: `MYSQL_USER` password
+- `MYSQL_HOST`: MySQL host
+- `MYSQL_DATABASE`: Database name
+- `PMA_USER`: fix root
+- `PMA_PASSWORD`: same `MYSQL_ROOT_PASSWORD`
+- `PMA_ARBITRARY`: ?
+- `PMA_HOST`: same `MYSQL_HOST`
 
 
 3. Docker up
@@ -53,12 +53,12 @@ vi environment/development/.env
 cd site_container
 docker-compose up --build -d
 ```
-
+  
 4. Browse template-ci
-
+  
 `https://localhost:13000` or `http://{$IP}:13000`
 
 5. Browse PhpMyAdmin
-
+  
 `https://localhost:13002` or `http://{$IP}:13002`
 
