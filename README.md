@@ -31,21 +31,22 @@ or Zip Download
 
 2. Change .env
 
+I recommend to set .env to .gitignore for security.
+
 ```
 vi environment/development/.env
 ```
 
-- `ENVIRONMENT`: development, testing, production...etc
-- `MYSQL_ROOT_PASSWORD`: Root password. required alphabet + number + sybol
-- `MYSQL_USER`: Used by Codeigniter
-- `MYSQL_PASSWORD`: `MYSQL_USER` password
-- `MYSQL_HOST`: MySQL host
-- `MYSQL_DATABASE`: Database name
-- `PMA_USER`: fix root
-- `PMA_PASSWORD`: same `MYSQL_ROOT_PASSWORD`
-- `PMA_ARBITRARY`: ?
-- `PMA_HOST`: same `MYSQL_HOST`
-
+- `ENVIRONMENT` : development, testing, production...etc
+- `MYSQL_ROOT_PASSWORD` : Root password. Use alphanumeric characters and symbol.
+- `MYSQL_USER` : A user name which is used for CodeIgniter.
+- `MYSQL_PASSWORD` : MYSQL_USER's password
+- `MYSQL_HOST` : host
+- `MYSQL_DATABASE` : Database name
+- `PMA_USER` : Set root
+- `PMA_PASSWORD` : Set same as MYSQL_ROOT_PASSWORD
+- `PMA_ARBITRARY` : ?
+- `PMA_HOST` : Set same as MYSQL_HOST
 
 3. Docker up
 
