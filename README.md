@@ -56,9 +56,9 @@ docker-compose up --build -d
   
 4. Browse template-ci
   
-`https://localhost:13000` or `http://{$IP}:13000`
+https://localhost:13000 or `http://{$IP}:13000`
 
 5. Browse PhpMyAdmin
   
-`https://localhost:13002` or `http://{$IP}:13002`
+https://localhost:13002 or `http://{$IP}:13002`
 
