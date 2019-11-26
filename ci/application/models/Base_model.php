@@ -56,8 +56,6 @@ class Base_model extends CI_Model
                 *
             FROM
                 ".$this->_table."
-            WHERE
-                del_flg = 0
         ";
 
         return $this->query($sql, []);

@@ -97,14 +97,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @property Boleto              $boleto                              Boleto Class
  *
  * ---- models ----
- * @property M_platforms        $M_platforms
- * @property T_members          $T_members
- * @property T_member_locks     $T_member_locks
- * @property T_member_platforms $T_member_platforms
- * @property T_teams            $T_teams
- * @property T_team_requests    $T_team_requests
- * @property T_team_locks       $T_team_locks
- * @property T_team_members     $T_team_members
+ * @property M_productions         $M_productions
+ * @property T_productions         $T_productions
+ * @property T_production_receipts $T_production_receipts
+ * @property T_member_locks        $T_member_locks
+ * @property T_member_platforms    $T_member_platforms
+ * @property T_teams               $T_teams
+ * @property T_team_requests       $T_team_requests
+ * @property T_team_locks          $T_team_locks
+ * @property T_team_members        $T_team_members
  *
  * ---- libraries ----
  * @property Layout           $layout
