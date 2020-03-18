@@ -107,9 +107,6 @@ typings/
 # next.js build output
 .next
 
-# nuxt.js build output
-.nuxt
-
 # vuepress build output
 .vuepress/dist
 
@@ -122,3 +119,7 @@ typings/
 # gae
 gae/secret.yaml
 
+# carpenter
+export-production.sh
+migrate-production.sh
+database/backup/*
